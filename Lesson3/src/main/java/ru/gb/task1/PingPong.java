@@ -1,7 +1,7 @@
 package ru.gb.task1;
 
 public class PingPong {
-    private boolean pingPongValue;
+    private volatile boolean pingPongValue;
 
     {
         new Thread(() -> {

@@ -1,0 +1,15 @@
+1. Lorry
+1.1. заменить
+class Lorry extends Car, Moveable, Stoppable
+на
+class Lorry extends Car implements Moveable, Stoppable
+
+1.2. реазлизовать  void open()
+
+2. Engine сделать интерфейсом, чтобы создавать разные двигатели для разных типов ТС.
+
+3. Stoppable реализовать в Moveable
+
+4. Сделать implement Movaeble к Car, убрать от Lory и LightWeightCar
+
+5. Еще бы сделал конкретную реализацию move() и stop() именно в Car()
